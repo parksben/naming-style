@@ -1,0 +1,45 @@
+{
+  "scripts": {
+    "prepublishOnly": "npm run build",
+    "build": "rimraf lib && babel src --copy-files --source-maps --extensions .js --out-dir lib",
+    "test": "npx mocha test/index.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "rimraf": "^2.6.2"
+  },
+  "name": "naming-style",
+  "version": "1.0.0",
+  "description": "One lightly library contains a series of methods for converting one string or text to different kind of naming style, such as camelCase, PascalCase, hyphen-case, CONSTANT_CASE, etc.",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/parksben/naming-style.git"
+  },
+  "keywords": [
+    "naming",
+    "style",
+    "transform",
+    "checking",
+    "camel",
+    "pascal",
+    "hyphen",
+    "constant",
+    "snake",
+    "sentence",
+    "underscore"
+  ],
+  "author": "parksben",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/parksben/naming-style/issues"
+  },
+  "homepage": "https://github.com/parksben/naming-style#readme"
+}
