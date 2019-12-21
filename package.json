@@ -12,7 +12,7 @@
     "rimraf": "^2.6.2"
   },
   "name": "naming-style",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "One lightly library contains a series of methods for converting one string or text to different kind of naming style, such as camelCase, PascalCase, hyphen-case, CONSTANT_CASE, etc.",
   "main": "lib/index.js",
   "directories": {
