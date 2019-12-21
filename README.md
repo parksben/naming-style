@@ -1,5 +1,9 @@
 # naming-style
 
+![npm](https://img.shields.io/npm/l/naming-style.svg)
+![npm](https://img.shields.io/npm/dt/naming-style.svg)
+![npm](https://img.shields.io/npm/v/naming-style/latest.svg)
+
 [中文](./DOC_ZH.md)
 
 One lightly library contains a series of methods for converting one string or text to different kind of naming style, such as camelCase, PascalCase, hyphen-case, CONSTANT_CASE, etc.
