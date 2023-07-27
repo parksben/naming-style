@@ -31,7 +31,7 @@ import {
   constant,
   snake,
   underscore,
-  setence,
+  sentence,
 } from 'naming-style';
 
 style('iAm24YearsOld'); // Detect naming style of 'iAm24YearsOld'
