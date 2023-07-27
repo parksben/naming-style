@@ -25,7 +25,7 @@ import {
   constant,
   snake,
   underscore,
-  setence,
+  sentence,
 } from 'naming-style';
 
 style('iAm24YearsOld'); // 检测文本 'iAm24YearsOld' 的命名风格
